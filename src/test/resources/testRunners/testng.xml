@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Listener Example" verbose = "5">
+    <test name="TestNG Sample Test">
+        <classes>
+            <class name="testngsessions.AppTest"> </class>
+        </classes>
+    </test>
+    
+    <test name="TestNG Sample Test2">
+        <classes>
+            <class name="testngsessions.AmazonTest">      </class>
+        </classes>
+    </test>
+</suite>
